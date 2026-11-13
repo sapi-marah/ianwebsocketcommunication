@@ -5,6 +5,9 @@
   "dependencies" : {
     "ws" : "*"
   },
+  "scripts" : {
+    "start" : "node server.js"
+  },
   "author" : "Ian C. Vu",
   "license" : "MIT"
 }
