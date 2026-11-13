@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>
-			Ian's WebSocket JSON Communication 1.0
+			Ian's WebSocket JSON Communication
 		</title>
 		<style>
 			body {
@@ -25,6 +25,9 @@
 				font-weight: bold;
 				margin: 0px;
 			}
+			a {
+				color: blue;
+			}
 		</style>
 	</head>
 	<body>
@@ -35,7 +38,10 @@
 			<p class='msg'>
 				Go to <a href='https://github.com/sapi-marah/Ian-s-WebSocket-Communication'>
 					https://github.com/sapi-marah/Ian-s-WebSocket-Communication
-				</a> to get later and updated versions!
+				</a>
+			</p>
+			<p class='msg'>
+				to get later and updated versions!
 			</p>
 		</div>
 		<input id='input'>
@@ -54,7 +60,7 @@
 						input.value = '';
 					} else {
 						let errmsg = document.createElement('p');
-						errmsg.textContent = "Sorry, the WebSocket server didn't finish loading. Try sending your message again.";
+						errmsg.textContent = "Sorry, there was an error sending your message. Try sending it again!";
 						errmsg.className = 'msg';
 						messages.appendChild(errmsg);
 					}
