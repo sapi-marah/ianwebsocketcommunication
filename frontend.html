@@ -70,6 +70,7 @@
 				let message = JSON.parse(e.data);
 				let msg = document.createElement('p');
 				msg.textContent = message.username + ': ' + message.content;
+				msg.className = 'msg';
 				messages.appendChild(msg);
 			});
 		</script>
