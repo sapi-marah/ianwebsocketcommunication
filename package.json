@@ -1,0 +1,10 @@
+{
+  "name" : "ianwebsocket-communication",
+  "version" : "1.0",
+  "description" : "Chat, in real time!",
+  "dependencies" : {
+    "ws" : "*"
+  },
+  "author" : "Ian C. Vu",
+  "license" : "MIT"
+}
