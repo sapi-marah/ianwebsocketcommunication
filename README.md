@@ -1,3 +1,4 @@
+<img src='./preview.png' width='700' height='700'></img>
 # Ian's WebSocket Communication 1.0
 Ian's WebSocket Communication 1.0 is a open-source project that allows people to chat in real time. Ian's WebSocket Communication uses the Node.js libary `ws` so you can communicate in real time.
 ## Hosting the project
